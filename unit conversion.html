@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Length Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Length Converter</h1>
+        <div class="input-container">
+            <input type="number" id="length" placeholder="Enter Length in Meters">
+            <select id="unit">
+                <option value="cm">Centimeters (cm)</option>
+                <option value="km">Kilometers (km)</option>
+                <option value="mm">Millimeters (mm)</option>
+            </select>
+        </div>
+        <button id="convert">Convert</button>
+        <div class="result" id="result">Converted Length: <span id="convertedLength"></span></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
